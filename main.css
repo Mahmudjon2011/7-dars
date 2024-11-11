@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 22px;
+    background-color:rgb(243, 215, 183) ;
+}
+.container{
+    max-width: 1340px;
+width: 100%;
+margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.header__link{
+    color: rgb(51, 51, 51);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 1px;
+text-decoration: none;
+transition: 0.6s ease-in-out;
+}
+.header__link:hover{
+    color: red;
+}
+.hero{
+    background-color: rgb(243, 215, 183);
+    padding-top: 131px;
+    padding-bottom: 257px;
+}
+.hero__textbox{
+    width: 464px;
+}
+.hero__title{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+  margin: 47px 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 22px;
+    background-color:rgb(243, 215, 183) ;
+}
+.container{
+    max-width: 1340px;
+width: 100%;
+margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.header__link{
+    color: rgb(51, 51, 51);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 1px;
+text-decoration: none;
+transition: 0.6s ease-in-out;
+}
+.header__link:hover{
+    color: red;
+}
+.hero{
+    background-color: rgb(243, 215, 183);
+    padding-top: 131px;
+    padding-bottom: 257px;
+}
+.hero__textbox{
+    width: 464px;
+}
+.hero__title{
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+  margin: 47px 0;
+}
+.hero__btn{
+    border-radius: 100px;
+width: 193px;
+    background: rgb(10, 119, 95);
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+  padding: 16px 0;
+    border: none;
+    transition: 0.5s ease-in-out;
+
+}
+.hero__btn:hover{
+background-color: red;
+}
+.hero__wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    text-align: center;
+    padding: 110px;
+}
+.hero__right:before{
+    position: absolute;
+    z-index: 2;
+    top: -50;
+    right: 630px;
+    background-image: url(./images/image\ 40\ \(1\).png);
+    width: 160px;
+    height: 160px;
+    background-position: center;
+    display: block;
+    content: "";
+    transform: rotate(0deg);
+    animation-name: spiner;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+@keyframes spiner{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.section{
+    padding-top: 42px;
+}
+.hero__textbx{
+    width: 646px;
+    padding: 120px;
+padding: 64px;
+   
+}
+.hero__wrap{
+    display: flex;
+    padding-bottom: 120px;
+    align-items: center;
+    padding: 120px;
+padding-bottom: 120px;
+}
+.hero__tilte{
+    padding: 64px;
+
+}
+.ota{
+    padding-top: 70px;
+    background-color: rgb(201, 155, 103);
+}
+.hero__wrep{
+    display: flex;
+    padding-bottom:120px;
+    align-items: center;
+    padding: 120px;
+    padding-bottom: 120px;
+}
+.header__textbox{
+    width: 639px;
+    padding-inline: 64px;
+}
+.header__title{
+    padding: 30px;
+
+}
+.header__right:before{
+    position: absolute;
+    z-index: 2;
+    top: 33;
+    right: 630px;
+    background-image: url(./images/image\ 40\ \(1\).png);
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    display: block;
+    content: "";
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+.header2{
+    padding-top: 63px;
+}
+.contanier2{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header__link2{
+    color: rgb(51, 51, 51);
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-decoration: none;
+}
+.hero__section{
+    padding-top: 15px;
+}
+
